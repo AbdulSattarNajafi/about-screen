@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*, 
+*::before, 
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #000000;
+    overscroll-behavior: none;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+main {
+    padding: 30px 15px;
+}
+
+section {
+    padding-top: 30px;
+}
+
+.container {
+    max-width: 1200px;
+}
